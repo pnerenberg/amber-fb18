@@ -9,7 +9,7 @@ logFile leap.log
 #  > source leaprc.phosfb18
 #
 #  also source leaprc.water.fb{3,4} to choose a water model and ion parameters;
-#  utilize leaprc.water.fb3mod for FB3 water with Joung-Cheatham SPC/E ion 
+#  utilize leaprc.water.fb3mod for TIP3P-FB water with Joung-Cheatham SPC/E ion 
 #  parameters as in Stoppelman et al.
 #
 #	load atom type hybridizations
