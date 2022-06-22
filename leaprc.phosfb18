@@ -1,7 +1,7 @@
 logFile leap.log
 #
 # ----- leaprc for loading the FB18 force field for phosphorylated amino acids
-# ----- be sure to source leaprc.protein.fb15 *before* sourcing this file in leap:
+# ----- be sure to source leaprc.protein.fb15 before sourcing this file in leap:
 #       > source leaprc.protein.fb15
 #       > source leaprc.phosfb18
 #
