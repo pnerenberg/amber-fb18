@@ -1,4 +1,4 @@
-AMBER-FB18 parameter file.  Includes new atom types for amino acid side chains and new valence / torsion parameters.
+AMBER-FB18 parameter file. Includes new atom types for amino acid side chains and new valence / torsion parameters. See Stoppelman et al., J Phys Chem B. (2021) DOI: 10.1021/acs.jpcb.1c07547
 MASS
 OP      16.00
 OQ      16.00
