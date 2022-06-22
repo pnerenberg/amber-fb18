@@ -1,0 +1,34 @@
+logFile leap.log
+#
+#	load atom type hybridizations
+#
+addAtomTypes {
+        { "bs"  "C" "sp3" }
+        { "bt"  "C" "sp3" }
+        { "by"  "C" "sp3" }
+        { "gt"  "C" "sp3" }
+        { "BS"  "C" "sp3" }
+        { "BT"  "C" "sp3" }
+        { "BY"  "C" "sp3" }
+        { "GT"  "C" "sp3" }
+        { "OP"  "O" "sp2" }
+        { "OQ"  "O" "sp3" }
+        { "OR"  "O" "sp3" }
+        { "OT"  "O" "sp2" }
+        { "OV"  "O" "sp3" }
+        { "OX"  "O" "sp2" }
+        { "OZ"  "O" "sp3" }
+}
+
+#
+#	Load the main parameter set.
+#
+loadamberparams frcmod.phosfb18 
+
+#
+#	Load amino acid libraries (modified from ff94)
+#
+loadOff phos_aminofb18.lib
+#
+#  Note: also load a leaprc.water.fb{3,4} file to choose a water model;
+#        utilize leaprc.water.fb3mod for FB3 water with J-C SPC/E ion parameters.

@@ -1,0 +1,10 @@
+source leaprc.protein.fb15
+source leaprc.phosfb18
+source leaprc.water.fb3mod
+dipep = sequence { ACE TPO NME }
+savepdb dipep TPO_solo.pdb
+solvateoct dipep FB3BOX 13.8
+addions dipep NA 0
+saveamberparm dipep TPO_wat.prmtop TPO_wat.inpcrd
+savepdb dipep TPO_wat.pdb
+quit
