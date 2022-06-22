@@ -1,5 +1,5 @@
 #
-#  Load TIP3P-FB water model and ions for **SPC/E** + Joung-Chetham  monovalent
+#  Load TIP3P-FB water model and ions for **SPC/E** + Joung-Cheatham  monovalent
 #    ions + Li/Merz highly charged ions (+2 to +4, 12-6 normal usage set)
 #
 addAtomTypes {
